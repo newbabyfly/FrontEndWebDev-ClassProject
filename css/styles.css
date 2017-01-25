@@ -227,7 +227,18 @@ nav a:hover {
   width: 100%;
 }
 
+.pop {
+  color: #871719;
+}
 
+/* ==========================================================================
+  Buttons
+  ========================================================================== */
+
+.nwsltr {
+  clear:both;
+  background:#ecd5ad;
+}
 /* ==========================================================================
   Buttons
   ========================================================================== */
@@ -244,4 +255,60 @@ a.hero-button:link {
 a.hero-button:hover {
   border-color: #871719;
   background-color: #871719;
+}
+
+/* ==========================================================================
+   FORMS
+   ========================================================================== */
+
+form {
+
+}
+
+input {
+  width: 88%;
+  display: block;
+  clear: both;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  height: 36px;
+  padding: 8px;
+  margin: 10px 5px 10px 0;
+  font-size: 100%;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+textarea#comment-field {
+  display: block;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  height: 200px;
+  padding: 8px;
+  margin: 10px 0px;
+  font-size: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #871719;
+  color: #FFC400;
+  font-family: 'Roboto Slab', serif;
+  font-size: 80%;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+  width: 10%;
+}
+
+input.button:hover {
+  background: #fff;
+  color: #09C;
+}
+
+.small-txt {
+  font-size:80%;
 }
